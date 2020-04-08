@@ -195,7 +195,8 @@ module.exports = {
       outline: '0 0 0 3px rgba(66, 153, 225, 0.5)',
       none: 'none',
     },
-    container: {},
+    container: {
+    },
     cursor: {
       auto: 'auto',
       default: 'default',
