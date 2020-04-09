@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "CheckCovid",
+  "name": "For Checking the covid-19 cases",
   "icons": [
     {
       "src": "favicon.ico",

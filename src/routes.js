@@ -4,7 +4,9 @@ import { Switch, Route } from 'react-router-dom'
 // component
 import Layout from './hoc/layout'
 import HomePage from './components/Home/homePage'
+import AboutPage from './components/About/aboutPage'
 import CountryPage from './components/Country/countryPage'
+import PageNotFound from './components/ErrorPage/pageNotFound'
 
 const Routes = () => {
 
@@ -12,7 +14,9 @@ const Routes = () => {
         <Layout>
             <Switch>
                 <Route path="/" exact component={HomePage} />
-                <Route path="/:code" exact component={CountryPage} />
+                <Route path="/about" exact component={AboutPage} />
+                <Route path="/country/:country" exact component={CountryPage} />
+                <Route component={PageNotFound} />
             </Switch>
         </Layout>
     )
